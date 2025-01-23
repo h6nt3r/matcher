@@ -9,7 +9,7 @@ cat urls.txt | match -p "=" -r -v -o parameter_outputs.txt
 ```
 ## installations
 ```
-cd /opt/ && sudo git clone https://github.com/bhunterex/matcher.git
+cd /opt/ && sudo git clone https://github.com/h6nt3r/matcher.git
 cd
 sudo chmod +x /opt/matcher/match.py
 sudo ln -sf /opt/matcher/match.py /usr/local/bin/match
