@@ -25,12 +25,13 @@ match -h
 ## Options
 ```
 match -h
-usage: match [-h] [-f FILE] -r REPLACEMENT [-R] [-i] [-m MATCHER_LIST] [-c] [-d] [-s] [-o OUTPUT]
+usage: match [-h] [-u URL] [-f FILE] -r REPLACEMENT [-R] [-i] [-m MATCHER_LIST] [-c] [-d] [-s] [-o OUTPUT]
 
-Parameters Matcher. current version: 1.0.2
+Parameters Matcher. current version: 1.0.3
 
 options:
   -h, --help            show this help message and exit
+  -u, --url URL         Single URL to scan.
   -f, --file FILE       Input file containing URLs. Defaults to stdin.
   -r, --replacement REPLACEMENT
                         Replacement text for matched query parameter values.
